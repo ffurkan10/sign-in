@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sign-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-shadow{
+    border: 1px solid wheat;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+.card{
+    border: 1px solid white;
+    padding: 70px 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.sign{
+    margin-bottom: 10px;
+    color:rgb(5, 5, 77);
+}
+.phone p {
+    color: rgb(5, 5, 77);
+}
+.phone-input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(5, 5, 77);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.date p {
+    color: rgb(5, 5, 77);
+}
+.date-input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(5, 5, 77);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.check p {
+    margin-left: 5px;
+    color: rgb(5, 5, 77);
+    font-weight: bolder;
+}
+
+.button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.button a{
+    background-color: rgb(5, 5, 77);
+    padding: 13px 103px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 5, 77);
+}
